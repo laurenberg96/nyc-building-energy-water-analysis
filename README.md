@@ -3,6 +3,7 @@ Analysis of 2024 NYC Local Law 84 benchmarking data using Python and Tableau to 
 
 ## Project Links
 [View Interactive Tableau Story](https://public.tableau.com/app/profile/lauren.berg8826/viz/LBerg_NYC_Energy_Water_Building_Analysis/Presentation?publish=yes)
+
 [View Python Analysis Notebook](notebooks/NYC_Building_Energy_Water_Analysis.ipynb)
 
 ## Project Overview
