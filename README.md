@@ -15,6 +15,11 @@ The project combines Python-based exploratory analysis with an interactive Table
 
 What factors help explain differences in building energy and water performance, and how can peer-relative performance be used to identify buildings that may warrant further efficiency investigation?
 
+## Key Visualization
+![Peer-relative energy and water performance](images/KeyVisual.png)
+
+Approximately 66.5% of properties showed aligned energy and water performance, while about 33.5% showed mixed performance. This distinction supports different approaches to prioritizing further efficiency investigation.
+
 ## Tools
 
 - Python
