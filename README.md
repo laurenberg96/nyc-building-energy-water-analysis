@@ -21,15 +21,6 @@ What factors help explain differences in building energy and water performance, 
 
 Approximately 66.5% of properties showed aligned energy and water performance, while about 33.5% showed mixed performance. This distinction supports different approaches to prioritizing further efficiency investigation.
 
-## Tools
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Tableau
-
 ## Key Findings
 
 - **Property type matters:** Energy and water intensity vary substantially across building uses, making property type an important context for evaluating performance.
@@ -63,8 +54,37 @@ This framework was used to identify properties that may warrant comprehensive or
 - Use buildings performing well on both resources as potential peer benchmarks.
 - Conduct additional building-level investigation before recommending specific efficiency measures.
 
+## Data
+
+This project uses the NYC Building Energy and Water Data Disclosure for Local Law 84 dataset from NYC Open Data, with the analysis focused on calendar year 2024.
+
+The raw dataset is not included in this repository due to file size. It can be downloaded from [NYC Open Data](https://data.cityofnewyork.us/Environment/NYC-Building-Energy-and-Water-Data-Disclosure-for-/5zyy-y8am/about_data).
+
+Key analytical filters and data-cleaning decisions are documented in [data/README.md](data/README.md).
+
+## Tools
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Tableau
+
 ## Limitations
 
 This analysis is intended as a screening and benchmarking framework. Peer-relative performance can identify unusual buildings but does not diagnose the cause of poor performance or determine which efficiency measures should be implemented.
 
 The analysis is based on 2024 benchmarking data and does not evaluate performance changes over time.
+
+## Running the Analysis
+
+The raw dataset is not included in this repository due to file size.
+
+To reproduce the analysis:
+
+1. Download the NYC Building Energy and Water Data Disclosure for Local Law 84 dataset from NYC Open Data.
+2. Rename the downloaded CSV to `nyc_building_energy_water.csv`.
+3. Place the CSV in the `data/` folder.
+4. Open `notebooks/NYC_Building_Energy_Water_Analysis.ipynb`.
+5. Run the notebook from the beginning.
